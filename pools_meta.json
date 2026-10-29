@@ -1,0 +1,99 @@
+{
+ "ToN-IoT": {
+  "n_raw": 93199,
+  "n_used": 93199,
+  "n_features": 83,
+  "pca_var": 0.8081857284590375,
+  "counts": {
+   "exercise/benign/known": 14195,
+   "exercise/recon/known": 2685,
+   "exercise/access/known": 21014,
+   "exercise/access/zero-day": 5189,
+   "exercise/persist/known": 1179,
+   "exercise/lateral/known": 621,
+   "exercise/impact/known": 7167,
+   "exercise/impact/zero-day": 3866,
+   "eval/benign/known": 9464,
+   "eval/recon/known": 1791,
+   "eval/access/known": 14010,
+   "eval/access/zero-day": 3460,
+   "eval/persist/known": 787,
+   "eval/lateral/known": 415,
+   "eval/impact/known": 4778,
+   "eval/impact/zero-day": 2578
+  },
+  "zero_day_labels": [
+   "dos",
+   "xss"
+  ]
+ },
+ "CICIoT2023": {
+  "n_raw": 157359,
+  "n_used": 157359,
+  "n_features": 38,
+  "pca_var": 0.9430319391856887,
+  "counts": {
+   "exercise/benign/known": 15000,
+   "exercise/recon/known": 15000,
+   "exercise/access/known": 2628,
+   "exercise/access/zero-day": 1263,
+   "exercise/persist/known": 15000,
+   "exercise/persist/zero-day": 523,
+   "exercise/lateral/known": 15000,
+   "exercise/impact/known": 15000,
+   "exercise/impact/zero-day": 15000,
+   "eval/benign/known": 10000,
+   "eval/recon/known": 10000,
+   "eval/access/known": 1753,
+   "eval/access/zero-day": 843,
+   "eval/persist/known": 10000,
+   "eval/persist/zero-day": 349,
+   "eval/lateral/known": 10000,
+   "eval/impact/known": 10000,
+   "eval/impact/zero-day": 10000
+  },
+  "zero_day_labels": [
+   "BACKDOOR_MALWARE",
+   "BROWSERHIJACKING",
+   "COMMANDINJECTION",
+   "DOS-HTTP_FLOOD",
+   "DOS-SYN_FLOOD",
+   "DOS-TCP_FLOOD",
+   "DOS-UDP_FLOOD",
+   "UPLOADING_ATTACK"
+  ]
+ },
+ "CIC-DIAD2024": {
+  "n_raw": 147481,
+  "n_used": 147481,
+  "n_features": 69,
+  "pca_var": 0.9418652468907525,
+  "counts": {
+   "exercise/benign/known": 15000,
+   "exercise/recon/known": 15000,
+   "exercise/access/known": 6026,
+   "exercise/access/zero-day": 2005,
+   "exercise/persist/known": 4661,
+   "exercise/persist/zero-day": 795,
+   "exercise/lateral/known": 15000,
+   "exercise/impact/known": 15000,
+   "exercise/impact/zero-day": 15000,
+   "eval/benign/known": 10000,
+   "eval/recon/known": 10000,
+   "eval/access/known": 4018,
+   "eval/access/zero-day": 1337,
+   "eval/persist/known": 3108,
+   "eval/persist/zero-day": 531,
+   "eval/lateral/known": 10000,
+   "eval/impact/known": 10000,
+   "eval/impact/zero-day": 10000
+  },
+  "zero_day_labels": [
+   "DoS-HTTP_Flood",
+   "DoS-SYN_Flood",
+   "DoS-UDP_Flood",
+   "Uploading_Attack",
+   "XSS"
+  ]
+ }
+}
